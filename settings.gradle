@@ -2,6 +2,7 @@ include ':app'
 rootProject.name = "My Application"
 
 setBinding(new Binding([gradle: this]))
+//change to your flutter module path
 evaluate(new File(
         settingsDir,
         '../../AndroidStudioProjects/flutter_module_test/.android/include_flutter.groovy'
