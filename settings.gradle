@@ -5,9 +5,12 @@ setBinding(new Binding([gradle: this]))
 //change to your flutter module path
 evaluate(new File(
         settingsDir,
-        '../../AndroidStudioProjects/flutter_module_test/.android/include_flutter.groovy'
+        '../../StudioProjects/flutter_in_app_webview/.android/include_flutter.groovy'
 ))
 
 
 include ':flutter_module_test'
 project(':flutter_module_test').projectDir = new File('../AppFlutterModule')
+
+include ':flutter_in_app_webview'
+project(':flutter_in_app_webview').projectDir = new File('../flutter_in_app_webview')

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 supportFragmentManager
                     .beginTransaction()
                     .add(
-                        R.id.container,
+                        R.id.fragment_container,
                         it,
                         "flutter"
                     ).commit()
