@@ -9,8 +9,6 @@ evaluate(new File(
 ))
 
 
-include ':flutter_module_test'
-project(':flutter_module_test').projectDir = new File('../AppFlutterModule')
 
 include ':flutter_in_app_webview'
 project(':flutter_in_app_webview').projectDir = new File('../flutter_in_app_webview')
